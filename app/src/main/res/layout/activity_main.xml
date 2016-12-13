@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.yamankod.write_external_storage.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Write External Storage" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="textPersonName"
+        android:hint="wirte your save data"
+        android:ems="10"
+        android:id="@+id/etWrite" />
+
+    <Button
+        android:text="Write External(SD)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnWrite" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:background="@android:color/black"
+        android:layout_height="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Read External Storage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="textPersonName"
+        android:hint="your data"
+        android:ems="10"
+        android:id="@+id/tvread" />
+
+    <Button
+        android:text="Read External(SD)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRead" />
+
+</LinearLayout>
